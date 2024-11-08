@@ -1067,3 +1067,64 @@ search-form input::-webkit-search-cancel-button{
 		font-size: 1.6rem;
 	}
 }
+
+/* Form */
+
+.formulario-contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f3e5;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Estilo de los labels en color marrón */
+label {
+    color: var(--primary-color);
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Estilos para inputs y textarea */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo para botones de radio */
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Botón de envío */
+button {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: var(--primary-color);
+}

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Baristas</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+<body>
+    <header>
+        <div class="container-hero">
+            <div class="container hero">
+                <div class="customer-support">
+                    <i class="fa-solid fa-headset"></i>
+                    <div class="content-customer-support">
+                        <span class="text">Soporte al cliente</span>
+                        <span class="number">123-345-6787</span>
+                    </div>
+                </div>
+
+                <div class="container-logo">
+                    <i class="fa-solid fa-mug-hot"></i>
+                    <h1 class="logo"><a href="/">Baristas</a></h1>
+                </div>
+
+                <div class="container-user">
+                    <i class="fa-solid fa-user"></i>
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <div class="content-shopping-cart">
+                        <span class="text">Carrito</span>
+                        <span class="number">(0)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    <div class="container-navbar">
+        <nav class="navbar container">
+                <i class="fa-solid fa-bars"></i>
+                <ul class="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#">Moca Helado</a></li>
+                    <li><a href="#">Expreso</a></li>
+                    <li><a href="#">Capuchino</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="#">Más</a></li>
+                </ul>
+
+                <form action="" class="search-form">
+                    <input type="search" placeholder="Buscar..." />
+                     <button class="btn-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                     </button>   
+                </form>
+        </nav>
+    </div>
+    </header>
+        <h1 class="heading-1">Contacto</h1>
+
+
+        <section class="formulario-contacto">          
+            <form action="/submit" method="post" >
+                <!-- Campo de nombre -->
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <br><br>
+                
+                <!-- Campo de apellido -->
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+                <br><br>
+                
+                <!-- Campo de correo electrónico -->
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+                
+                <!-- Campo de mensaje -->
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" cols="50" placeholder="Escribe tu mensaje aquí..."></textarea>
+                <br><br>
+                
+                <!-- Opciones para elegir tamaño del café -->
+                <label>Tamaño del Café:</label><br>
+                <input type="radio" id="chico" name="tamano" value="chico" required>
+                <label for="chico">Chico</label><br>
+                
+                <input type="radio" id="mediano" name="tamano" value="mediano">
+                <label for="mediano">Mediano</label><br>
+                
+                <input type="radio" id="grande" name="tamano" value="grande">
+                <label for="grande">Grande</label><br><br>
+                
+                <!-- Botón de envío -->
+                <button type="submit">Enviar Pedido</button>
+            </form>
+        </body>
+        </section>
+
+        <section class="container blogs">
+            <h1 class="heading-1">Últimos blogs</h1>
+
+            <div class="container-blogs">
+                <div class="card-blog">
+                    <div class="container-img">
+                        <img src="img/blog-1.jpg" alt="imagen blog 1">
+                        <div class="button-group-blog">
+                            <span>
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-link"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="content-blog">
+                        <h3>Lorem, ipsum dolor sit</h3>
+                        <span>29 Noviembre 2024</span>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium magnam delectus assumenda culpa! Id, debitis ad deleniti consequuntur obcaecati quam inventore ratione quia voluptatum ut cum! Quae minus iure error.
+                        </p>
+                        <div class="btn-read-more">Leer Más</div>
+                    </div>
+                </div>
+                <div class="card-blog">
+                    <div class="container-img">
+                        <img src="img/blog-2.jpg" alt="imagen blog 2">
+                        <div class="button-group-blog">
+                            <span>
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-link"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="content-blog">
+                        <h3>Lorem, ipsum dolor sit</h3>
+                        <span>29 Noviembre 2024</span>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium magnam delectus assumenda culpa! Id, debitis ad deleniti consequuntur obcaecati quam inventore ratione quia voluptatum ut cum! Quae minus iure error.
+                        </p>
+                        <div class="btn-read-more">Leer Más</div>
+                    </div>
+                </div>
+                <div class="card-blog">
+                    <div class="container-img">
+                        <img src="img/blog-3.jpg" alt="imagen blog 3">
+                        <div class="button-group-blog">
+                            <span>
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-link"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="content-blog">
+                        <h3>Lorem, ipsum dolor sit</h3>
+                        <span>29 Noviembre 2024</span>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium magnam delectus assumenda culpa! Id, debitis ad deleniti consequuntur obcaecati quam inventore ratione quia voluptatum ut cum! Quae minus iure error.
+                        </p>
+                        <div class="btn-read-more">Leer Más</div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container container-footer">
+            <div class="menu-footer">
+                <div class="contact-info">
+                    <p class="title-footer">Información de Contacto</p>
+                    <ul>
+                        <li>Dirección: Av Corrientes 800 - CABA</li>
+                        <li>Teléfono: +54 11 22406559</li>
+                        <li>FAX: 5555-4444</li>
+                        <li>Email: baristas@support.com</li>
+                        <div class="social-icons">
+                            <span class="facebook"><i class="fa-brands fa-facebook"></i></span>
+                            <span class="twitter"><i class="fa-brands fa-twitter"></i></span>
+                            <span class="youtube"><i class="fa-brands fa-youtube"></i></span>
+                            <span class="instagram"><i class="fa-brands fa-instagram"></i></span>
+                            <span class="pinterest"><i class="fa-brands fa-pinterest"></i></span>
+                        </div>
+                    </ul>
+                </div>
+                <div class="information">
+                    <p class="title-footer">Información</p>
+                    <ul>
+                        <li><a href="#">Acerca de Nosotros</a></li>
+                        <li><a href="#">Información Delivery</a></li>
+                        <li><a href="#">Póliticas de Privacidad</a></li>
+                        <li><a href="#">Términos y Condiciones</a></li>
+                        <li><a href="#">Contactános</a></li>
+                    </ul>
+                </div>
+
+                <div class="my-account">
+                    <p class="title-footer">Mi cuenta</p>
+                    <ul>
+                        <li><a href="#">Mi cuenta</a></li>
+                        <li><a href="#">Historial de ordenes</a></li>
+                        <li><a href="#">Lista de deseos</a></li>
+                        <li><a href="#">Boletín</a></li>
+                        <li><a href="#">Reembolsos</a></li>
+                    </ul>
+                </div>
+
+                <div class="newsletter">
+                    <p class="title-footer">Boletín Informativo</p>
+                    <div class="content">
+                        <p>
+                            Suscribite a nuestros boletines y mantente al dia con nuevas colecciones y ofertas exclusivas.
+                        </p>
+                        <input type="email" placeholder="Ingresa el correo aquí...">
+                        <button>Suscribite</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>Desarrollado por Gabriel Del Vacchio &copy; 2024</p>
+                <img src="img/payment.png" alt="Pagos">
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/5477bc10dd.js" crossorigin="anonymous">
+
+    </script>
+</body>
+</html>
